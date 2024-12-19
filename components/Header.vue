@@ -6,9 +6,7 @@ import PhoneSVG from '~/assets/icons/phone.svg'
 
 <template>
   <header class="relative">
-    <div
-      class="flex flex-col gap-30 px-3.5 lg:(flex-row px-10) justify-between items-center max-w-360 mx-auto pt-10"
-    >
+    <div class="flex flex-col gap-30 px-3.5 lg:(flex-row px-10) justify-between items-center max-w-360 mx-auto pt-10">
       <div class="flex flex-col gap-3.5">
         <div class="flex flex-row">
           <LocationSVG class="text-red text-4xl" />
@@ -25,13 +23,7 @@ import PhoneSVG from '~/assets/icons/phone.svg'
         </div>
       </div>
       <div class="">
-        <NuxtImg
-          loading="lazy"
-          format="webp"
-          alt="FixMyDoors"
-          class="w-40"
-          src="images/logo.png"
-        />
+        <NuxtImg loading="lazy" format="webp" alt="FixMyDoors" class="w-40" src="images/logo.png" />
       </div>
 
       <div class="flex flex-col items-center lg:flex-row">
@@ -41,47 +33,30 @@ import PhoneSVG from '~/assets/icons/phone.svg'
             Позвоните нам, и мы с удовольствием окажем <br />
             вам всю необходимую помощь и ответим на все ваши вопросы.
           </p>
-          <a
-            class="text-4xl font-600 text-red decoration-none flex mt-2 justify-center text-center lg:justify-start"
-            href="tel:+375297066446"
-            >+375 (29) 706-64-46</a
-          >
+          <a class="text-4xl font-600 text-red decoration-none flex mt-2 justify-center text-center lg:justify-start"
+            href="tel:+375297066446">+375 (29) 706-64-46</a>
         </div>
       </div>
     </div>
-    <NuxtImg
-      loading="lazy"
-      format="webp"
-      src="/images/bg.jpg"
-      alt=""
-      class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur"
-    />
+    <NuxtImg loading="lazy" format="webp" src="/images/bg.jpg" alt=""
+      class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur" />
 
-    <div
-      class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 px-5 pb-10 lg:(flex-row px-10)"
-    >
-      <NuxtImg
-        loading="lazy"
-        format="webp"
-        class="w-80"
-        alt="Door"
-        src="/images/door.png"
-      />
+    <div class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 px-5 pb-10 lg:(flex-row px-10)">
+      <NuxtImg loading="lazy" format="webp" class="w-80" alt="Door" src="/images/door.png" />
 
       <div class="max-w-180 text-center">
         <h1>
-          Профессиональный ремонт дверей и окон в Минске – Быстро, Надежно и
-          Доступно
+          Ремонт дверей и окон в Минске – Быстро, Надёжно и Доступно
         </h1>
 
         <p class="w-full leading-normal text-xl break-words">
-          Ремонт дверей и окон любой сложности с гарантией качества! <br />
-          Наши специалисты помогут вам вернуть комфорт и безопасность в ваш дом.
-          <br />
-          Независимо от типа проблемы, будь то замки, стекла или фурнитура, мы
-          гарантируем оперативное и надежное обслуживание.
+          Ремонт дверей любой сложности: межкомнатные, входные, балконные. <br />
+          Решаем проблемы с замками, фурнитурой, утеплением и регулировкой. <br />
+          Также оказываем услуги по ремонту окон: ПВХ и деревянные. <br />
+          Гарантия качества и оперативное обслуживание!
         </p>
       </div>
+
     </div>
   </header>
 </template>

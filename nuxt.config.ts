@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        'Ремонт дверей и окон в Минске | FixMyDoors – Быстро, Качественно и Недорого',
+        'Ремонт дверей в Минске | Межкомнатные, входные, балконные двери | Ремонт окон ПВХ',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'FixMyDoors – профессиональный ремонт дверей и окон в Минске. Быстрое обслуживание, доступные цены и надежная гарантия на все работы. Закажите ремонт дверей и окон с выездом мастера!',
+            'Ремонт дверей в Минске: входные, межкомнатные, балконные двери. Замена замков, утепление, реставрация, регулировка. Ремонт окон: ПВХ и деревянных. Быстрое и качественное обслуживание. FixMyDoors.',
         },
 
         {
@@ -58,6 +58,23 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'ru',
       },
+      script: [
+        {
+          hid: 'gtag',
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-E9DCH4X3H9',
+          async: true,
+        },
+        {
+          hid: 'gtag-config',
+          children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-E9DCH4X3H9');
+          `,
+        }
+      ]
+
     },
   },
 
@@ -80,7 +97,7 @@ export default defineNuxtConfig({
     url: 'https://fixmydoors.by/',
     name: 'FixMyDoors',
     description:
-      'FixMyDoors – профессиональный ремонт дверей и окон в Минске. Быстрое обслуживание, доступные цены и надежная гарантия на все работы. Закажите ремонт дверей и окон с выездом мастера!',
+      'Ремонт дверей в Минске: входные, межкомнатные, балконные двери. Замена замков, утепление, реставрация, регулировка. Ремонт окон: ПВХ и деревянных. Быстрое и качественное обслуживание. FixMyDoors.',
   },
 
   gtag: {
