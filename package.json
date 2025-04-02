@@ -13,7 +13,6 @@
   "dependencies": {
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/robots": "^4.1.11",
-    "@nuxtjs/seo": "2.0.0-rc.23",
     "@nuxtjs/sitemap": "^6.1.5",
     "@unocss/reset": "^0.59.4",
     "axios": "^1.7.7",

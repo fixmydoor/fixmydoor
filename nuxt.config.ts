@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     '@nuxt/image',
-    '@nuxtjs/seo',
     'nuxt-gtag',
     'yandex-metrika-module-nuxt3',
   ],
