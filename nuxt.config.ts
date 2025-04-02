@@ -93,8 +93,12 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/': { prerender: true },
+  },
+
   site: {
-    url: 'https://fixmydoors.by/',
+    url: 'https://fixmydoors.by',
     name: 'FixMyDoors',
     description:
       'Ремонт дверей в Минске: входные, межкомнатные, балконные двери. Замена замков, утепление, реставрация, регулировка. Ремонт окон: ПВХ и деревянных. Быстрое и качественное обслуживание. FixMyDoors.',
