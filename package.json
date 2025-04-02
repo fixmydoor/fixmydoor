@@ -11,24 +11,24 @@
     "deploy": "gh-pages -d .output"
   },
   "dependencies": {
-    "@nuxt/image": "^1.8.1",
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/robots": "^4.1.11",
     "@nuxtjs/sitemap": "^6.1.5",
     "@unocss/reset": "^0.59.4",
-    "axios": "^1.7.7",
-    "nuxt": "^3.14.159",
-    "nuxt-gtag": "^3.0.1",
+    "axios": "^1.8.4",
+    "nuxt": "^3.16.2",
+    "nuxt-gtag": "^3.0.2",
     "nuxt-swiper": "^1.2.2",
     "unocss": "^0.59.4",
     "vue": "^3.5.13",
-    "vue-router": "^4.4.5",
+    "vue-router": "^4.5.0",
     "yandex-metrika-module-nuxt3": "^1.5.3"
   },
   "devDependencies": {
     "@unocss/nuxt": "^0.59.4",
     "@unocss/preset-web-fonts": "^0.59.4",
-    "gh-pages": "^6.2.0",
-    "nuxt-svgo": "^4.0.8",
-    "prettier": "^3.3.3"
+    "gh-pages": "^6.3.0",
+    "nuxt-svgo": "^4.0.17",
+    "prettier": "^3.5.3"
   }
 }
